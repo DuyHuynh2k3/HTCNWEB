@@ -1,0 +1,63 @@
+
+.contact-t .container{
+    background-color: #fff;
+    padding: 20px;
+}
+.contact-t .section .info {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #F9F9F9;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+.contact-t .section {
+    margin-right: 20px;
+    width: 33%;
+}
+.contact-t .mid {
+    margin-right: 20px;
+    width: 33%;
+}
+.contact-t .mid iframe {
+    width: 100%;
+}
+.contact-t .form h3 {
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 11px;
+}
+.contact-t .form {
+    flex: 1;
+}
+.contact-t .form .detail {
+    margin-bottom: 5px;
+}
+.contact-t .form .detail input {
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    border: 1px #ccc solid;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.contact-t .form .detail textarea {
+    padding: 8px;
+    width: 100%;
+    outline: none;
+    border: 1px #ccc solid;
+    border-radius: 3px;
+}
+.contact-t .form .bottom{
+    text-align: right;
+}
+.contact-t .form .bottom input {
+    color: #fff;
+    background-color: #BF0606;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.member {
+    margin: 10px 0px;
+}

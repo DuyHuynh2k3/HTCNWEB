@@ -1,0 +1,228 @@
+<link rel="stylesheet" href="assets/css/modal.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<header class="header">
+    <div class="container">
+        <div class="inner-wrap">
+            <div class="inner-logo">
+                <a href="./index.html">
+                    <img src="assets/images/logo.webp" alt="">
+                </a>
+            </div>
+            <div class="inner-search">
+                <input type="text" placeholder="Tìm kiếm sản phẩm...">
+                <a href="#" class="inner-search-logo">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+            </div>
+            <div class="inner-user">
+                <div class="inner-item">
+                    <i class="fa-regular fa-circle-user"></i>
+                    <div class="inner-p">
+                        <a href="./dangnhap.html" class="text-decoration-none">TÀI KHOẢN</a>
+                    </div>
+                </div>
+                <div class="inner-item">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <div class="inner-p">
+                        <a href="#" class="text-decoration-none" id="modalBtn">GIỎ HÀNG</a>
+                        <div id="simpleModal" class="modal">
+                            <div class="modal-centent">
+                                <div class="modal-header">
+                                    <h2>GIỎ HÀNG CỦA BẠN</h2>
+                                    <span class="closeBtn">&times;</span>
+                                </div>
+                                <div class="modal-body">
+                                   <table class="menu">
+                                    <thead>
+                                        <tr>
+                                            <th></th>
+                                            <th>Sản phẩm</th>
+                                            <th>Đơn giá</th>
+                                            <th>Số lượng</th>
+                                            <th>Thành tiền</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="">
+                                            <td data-label="Sản phẩm" class="product-img">
+                                                <img src="./assets/images/phukiendienthoai-3.webp" alt="">
+                                            </td>
+                                            <td class="product-title">
+                                                <p><a href="#">Sạc dự phòng Hoco J56</a></p>
+                                                <p class="product-variant">Phiên bản: J56 - Đen</p>
+                                                <p class="product-vendor">Thương hiệu: Hoco</p>
+                                            </td>
+                                            <td data-label="Đơn giá" class="product-price">
+                                                <p class="current-price">550,000₫</p>
+                                                <p class="original-price"><s>1,000,000₫</s></p>
+                                                <p class="sale-off">-45%</p>
+                                            </td>
+                                            <td class="product-actions" data-label="Số lượng">
+                                                <input class="js-qty__num" type="number" item-price="55000000" name="updates[]" id="updates_" data-id="" value="1" min="0">
+                                            </td>
+                                            <td class="product-money" data-label="Tổng giá">550,000₫</td>
+                                            <td class="product-remove">
+                                                <button><i class="fas fa-trash-alt"></i></button>
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td data-label="Sản phẩm" class="product-img ">
+                                                    <img src="./assets/images/phukiendienthoai-5.webp">
+                                            </td>
+                    <td class="product-title">
+                                                <p><a href="#">MÁY SƯỞI TAY KIÊM SẠC DỰ PHÒNG REMAX RT-SP15</a></p>
+                                                <p class="product-variant">Phiên bản: RT-SP15</p>
+                                                <p class="product-vendor">Thương hiệu: REMAX</p>
+                                            </td>
+                                            <td data-label="Đơn giá" class="product-price">
+                                                <p class="current-price">399,000₫</p>
+                                                <p class="original-price"><s>800,000₫</s></p>
+                                                <p class="sale-off">-50%</p>
+                                            </td>
+                    
+                                            <td class="product-actions" data-label="Số lượng">
+                                                <input class="js-qty__num" type="number" item-price="39900000" name="updates[]" id="updates_" data-id="" value="1" min="0">
+                                            </td>
+                                            <td class="product-money" data-label="Tổng giá">399,000₫</td>
+                                            <td class="product-remove">
+                                                <button><i class="fas fa-trash-alt"></i></button>
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td data-label="Sản phẩm" class="product-img ">
+                                                <img src="/./assets/images/tainghe-2.webp" alt="">
+                                            </td>
+                                            <td class="product-title">
+                                                <p><a href="/products/tai-nghe-tg02">Tai Nghe Bluetooth TG02</a></p>
+                                                <p class="product-variant">Phiên bản: Màu Đen</p>
+                                                <p class="product-vendor">Thương hiệu: TWS</p>
+                                            </td>
+                                            <td data-label="Đơn giá" class="product-price">
+                                                <p class="current-price">299,000₫</p>
+                                                <p class="original-price"><s>550,000₫</s></p>
+                                                <p class="sale-off">-46%</p>
+                                            </td>
+                                            <td class="product-actions" data-label="Số lượng">
+                                                <input class="js-qty__num" type="number" item-price="29900000" name="updates[]" id="updates_" data-id="" value="5" min="0">
+                                            </td>
+                                            <td class="product-money" data-label="Tổng giá">1,495,000₫</td>
+                                            <td class="product-remove">
+                                                <button><i class="fas fa-trash-alt"></i></button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                   </table>
+                                </div>
+                                <div class="modal-footer">
+                                    <div class="modal-checkout-actions">
+                                        <div class="grid">
+                                            <div class="grid__item large--one-half">
+                                                <div class="cart-note-wrapper">
+                                                    <div class="cart-note">
+                                                        <textarea name="note" placeholder="Ghi chú" class="input-full" id="CartSpecialInstructions"></textarea>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="text-left">
+                                                    <i class="fa fa-reply" aria-hidden="true"></i> Tiếp tục mua hàng</a>
+                                                </div>
+                                            </div>
+                                            <div class="grid__item large--one-half">
+                                                <div class="modal-cart-checkout text-right">
+                                                    <div class="modal-cart-sum">
+                                                        <h3>Tổng: <span>2,544,000₫</span></h3>
+                                                        <p class="you-save">
+                                                            Tiết kiệm: 1,756,000₫
+                                                        </p>
+                                                    </div>
+                                                    <div class="modal-cart-actions clearfix">
+                                                        <button class="btnRefeshModal" type="button">Cập nhật giỏ hàng</button>
+                                                        <button class="btnCheckout" type="button">Tiến hành thanh toán</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="inner-menu">
+        <div class="container">
+            <ul class="inner-wrap">
+                <li class="inner-item">
+                    <a href="#" class="text-item-1">
+                        <div class="item-icon">
+                            <img src="//theme.hstatic.net/1000378690/1000750892/14/hd_mainmenu_icon1.png?v=68"
+                                alt="Phụ kiện điện thoại" />
+                        </div>
+                        <div class="item-title">
+                            <a href="./capsac.html" class="text-decoration-none">Phụ kiện điện thoại</a>
+                        </div>
+                    </a>
+                </li>
+                <li class="inner-item">
+                    <a href="#" class="text-item-1">
+                        <div class="item-icon">
+                            <img src="//theme.hstatic.net/1000378690/1000750892/14/hd_mainmenu_icon2.png?v=68"
+                                alt="Tai nghe" />
+                        </div>
+                        <div class="item-title">
+                            <a href="./tainghe.html" class="text-decoration-none">Tai Nghe</a>
+                        </div>
+                    </a>
+                </li>
+                <li class="inner-item">
+                    <a href="#" class="text-item-1">
+                        <div class="item-icon">
+                            <img src="//theme.hstatic.net/1000378690/1000750892/14/hd_mainmenu_icon3.png?v=68"
+                                alt="Loa" />
+                        </div>
+                        <div class="item-title">
+                            <a href="./loa.html" class="text-decoration-none">Loa Nghe Nhạc</a>
+                        </div>
+                    </a>
+                </li>
+                <li class="inner-item">
+                    <a href="#" class="text-item-1">
+                        <div class="item-icon">
+                            <img src="https://theme.hstatic.net/1000378690/1000750892/14/hd_mainmenu_icon9.png?v=68"
+                                alt="Video" />
+                        </div>
+                        <div class="item-title">
+                            <a href="./video.html" class="text-decoration-none">Video</a>
+                        </div>
+                    </a>
+                </li>
+                <li class="inner-item">
+                    <a href="#" class="text-item-1">
+                        <div class="item-icon">
+                            <img src="assets/images/news-logo.webp"
+                                alt="Tin Tức" />
+                        </div>
+                        <div class="item-title">
+                            <a href="./tintuc.html" class="text-decoration-none">Tin tức</a>
+                        </div>
+                    </a>
+                </li>
+                <li class="inner-item">
+                    <a href="#" class="text-item-1">
+                        <div class="item-icon">
+                            <img src="https://theme.hstatic.net/1000378690/1000750892/14/hd_mainmenu_icon10.png?v=68"
+                                alt="Liên Hệ" />
+                        </div>
+                        <div class="item-title">
+                            <a href="./lienhe.html" class="text-decoration-none">Liên Hệ</a>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+<script src="assets/js/modal.js"></script>

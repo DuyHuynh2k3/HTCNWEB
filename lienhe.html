@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang web bán phụ kiện</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#headContainer').load("header.html");
+            $('#footContainer').load("footer.html");
+        
+        });
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/lienhe.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+</head>
+
+<body>
+    <header class="header" id="headContainer">
+    </header>
+    <div class="contact-t">
+        <div class="container">
+            <div class="nav">
+                <h2>LIÊN HỆ</h2>
+                <hr>
+            </div>
+            <div class="inner-wrap">
+                <div class="section">
+                    <div class="address info">
+                        <h3>ĐỊA CHỈ TRỤ SỞ</h3>
+                        <p>Số 12 Nguyễn Văn Bảo- phường 4- Gò Vấp- Hồ Chí Minh</p>
+                    </div>
+                    <div class="phone info">
+                        <h3>SỐ ĐIỆN THOẠI</h3>
+                        <p>0123456789</p>
+                    </div>
+                    <div class="mail info">
+                        <h3>EMAIL</h3>
+                        <p>nhom3@gmmail.com</p>
+                    </div>
+                    <div class="info">
+                        <h3>GIỚI THIỆU THÀNH VIÊN</h3>
+                        <ul class="team">
+                            <li class="member">Huỳnh Ngọc Duy - 21119221</li>
+                            <li class="member">Phạm Đức Duy - 21064461</li>
+                            <li class="member">Nguyễn Sỹ Đức - 21039661</li>
+                            <li class="member">Phạm Thành Đạt - 21134951</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mid">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d541.9632938337086!2d106.68693441929473!3d10.822030429045746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174deb3ef536f31%3A0x8b7bb8b7c956157b!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2hp4buHcCBUUC5IQ00!5e0!3m2!1svi!2s!4v1681117093947!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="form">
+                    <h3>FORM LIÊN HỆ: </h3>
+                    <form action="">
+                        <div class="detail"">
+                        <input type=" text" placeholder="Họ và tên của bạn">
+                        </div>
+                        <div class="detail"">
+                        <input type=" email" placeholder="Địa chỉ email của bạn">
+                        </div>
+                        <div class="detail"">
+                        <input type=" text" placeholder="Số điện thoại của bạn">
+                        </div>
+                        <div class="detail"">
+                        <textarea name="" id="" cols=" 37" rows="10" placeholder="Nội dung"></textarea>
+                        </div>
+                        <div class="bottom">
+                            <input type="button" name="" id="" value="Gửi">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footContainer" class="footer"></div>
+</body>
+
+</html>

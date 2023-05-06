@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    box-sizing: border-box;
+}
+:root {
+    --font:"Roboto Condensed", Helvetica, Arial, sans-serif;
+}
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inner-wrap {
+    display: flex;
+}
+a {
+    text-decoration: none;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+body {
+    font-family: var(--font);
+    background-color: #F0F0F0;
+}
+.n-product:hover {
+    color: #bf0606;
+}
+/* --------- */
+.product {
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    position: relative;
+    z-index: 4;
+}
+.product:hover {
+    border: 2px solid #bf0606;
+}
+.tag-sale {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #bf0606;
+    color: #fff;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.tag-runoff {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #bf0606;
+    color: #fff;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.current-price {
+    color: #bf0606;
+    font-size: 19px;
+    font-weight: 600;
+}
+.transition {
+    overflow: hidden;
+}
+.transition img {
+    transition: all 0.6s ease;
+}
+.transition img:hover {
+    transform: scale(1.04);
+}
+/* ---------------- */

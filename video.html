@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#headContainer').load("header.html");
+            $('#footContainer').load("footer.html");
+        
+        });
+    </script>
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/video.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+</head>
+<body>
+    <header class="header" id="headContainer">
+    </header>
+    <div class="videos">
+        <div class="container">
+            <div class="inner-title-top">
+                <h2 class="inner-title">Video review</h2>
+            </div>
+            <div class="inner-wrap">
+                <div class="col-xl-4 inner-box">
+                    <div class="inner-des">
+                        Tai Nghe bluetooth AIRS PRO
+                    </div>
+                    <iframe class="inner-content" src="https://www.youtube.com/embed/STDklfAWjjo"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-xl-4 inner-box">
+                    <div class="inner-des">
+                        Loa bluetooth robot 5 in 1
+                    </div>
+                    <iframe class="inner-content" width="560" height="315"
+                        src="https://www.youtube.com/embed/B7lGD9hQJgM" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-xl-4 inner-box">
+                    <div class="inner-des">
+                        Tai nghe bluetooth BAKEEY B3
+                    </div>
+                    <iframe class="inner-content" width="560" height="315"
+                        src="https://www.youtube.com/embed/gf1NMhN06yY" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footContainer" class="footer"></div>
+</body>
+</html>

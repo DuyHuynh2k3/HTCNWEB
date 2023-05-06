@@ -1,0 +1,30 @@
+.price-menu .inner-tag {
+    background: url(../images/title-menu.webp);
+    background-size: 187%;
+    height: 45px;
+    padding: 21px 10px 5px;
+    margin-bottom: 10px;
+}
+.price-menu .inner-tag .inner-title {
+    color: #fff;
+    margin: 0;
+    font-size: 18px;
+}
+.price-menu .inner-wrap {
+    background-color: #fff;
+    border: 1px solid #000;
+}
+.price-menu .inner-wrap .inner-box .inner-image {
+    position: relative;
+}
+.price-menu .inner-wrap .inner-box .inner-image img {
+    width: 100%;
+    height: auto;
+}
+.loa .inner-wrap .inner-box .inner-image img {
+    width: 100%;
+    height: 200px;
+}
+.loa {
+    margin-bottom: 20px;
+}

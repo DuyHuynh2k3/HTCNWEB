@@ -1,0 +1,49 @@
+ul {
+    padding: 0;
+}
+.backhomepage{
+    height: 44px;
+    width: 100%;
+}
+.backhomepage_content{
+    padding: 10px 0px 0px 30px;
+}
+.pagecontainer{
+    margin-bottom: 30px;
+}
+.pagecontainer .container {
+    background-color: #fff;
+}
+.formlogin{
+    height: 100%;
+    width: 33%;
+    margin: 0 33%;
+    padding: 10px 0px;
+
+}
+.pagecontainer .formlogin input{
+    width: 100%;
+    height: 40px;
+}
+.btn{
+    margin-bottom: 10px;
+}
+.btn_formlogin-submit{
+    background-color: rgb(187, 27, 27);
+    color: white;
+    border: 0px;
+    border-radius:5px;
+    margin-bottom: 10px;
+    
+}
+.formlogin span{
+    color: #bf0606;
+    font-size: 13px;
+    
+}
+
+.formlogin p>a{
+    font-size: 14px;
+    color: #bf0606;
+    margin-left: 165px;
+}
